@@ -5,7 +5,7 @@ Demonstração de landing page responsiva desenvolvida com HTML5, CSS3 e JavaScr
 ## Demonstração ao vivo
 
 Acesse a prévia no GitHub Pages:
-
+https://annanornberg.github.io/OnePage-Verbena.press/
 
 ## Estrutura do projeto
 
