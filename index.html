@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sucos orgânicos prensados a frio, sem conservantes e entregues frescos na sua porta." />
+  <title>Verbena Press — Sucos Prensados a Frio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="#" class="brand">
+        <span class="brand-mark" aria-hidden="true">+</span>
+        <span>Verbena.press</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#diferenciais">Processo</a>
+        <a href="#sabores">Sabores</a>
+        <a href="#degustacao">Degustação</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="cart-pill" id="cart-trigger" aria-label="Abrir sacola de pedidos">
+          Sacola (<span id="cart-count">0</span>)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="kicker">Prensado a frio • 100% integral</span>
+          <h1>Equilibre a sua rotina.</h1>
+          <p class="hero-lead">
+            Frutas frescas, raízes e folhas extraídas sem calor para preservar nutrientes, cor viva e sabor real — sem açúcar adicionado nem conservantes.
+          </p>
+          <div class="hero-actions">
+            <a href="#sabores" class="btn btn-outline">Explorar sabores</a>
+            <a href="#degustacao" class="btn btn-solid">Conhecer o kit</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="arch-backdrop">
+            <div class="bottle-tray" aria-label="Trio de garrafas naturais Verbena Press">
+              <div class="bottle bottle-green">
+                <span class="bottle-cap"></span>
+                <div class="bottle-label">
+                  <strong>Verdão</strong>
+                  <span>Couve, maçã &amp; gengibre</span>
+                </div>
+              </div>
+              <div class="bottle bottle-amber">
+                <span class="bottle-cap"></span>
+                <div class="bottle-label">
+                  <strong>Cítrico</strong>
+                  <span>Laranja, cúrcuma &amp; cenoura</span>
+                </div>
+              </div>
+              <div class="bottle bottle-berry">
+                <span class="bottle-cap"></span>
+                <div class="bottle-label">
+                  <strong>Raiz Pura</strong>
+                  <span>Beterraba, limão &amp; hortelã</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="band-forest">
+      <div class="container">
+        <div class="band-head reveal">
+          <span class="kicker kicker-light">Como fazemos</span>
+          <h2>O que torna nosso processo diferente</h2>
+          <p>Da colheita local até a garrafa de vidro retornável, cada etapa preserva o frescor.</p>
+        </div>
+
+        <div class="pillars-grid">
+          <article class="pillar-item reveal">
+            <div class="pillar-thumb">
+              <img src="assets/processo-prensa.jpg" alt="Prensa a frio com couve e maçã verde" loading="lazy" />
+            </div>
+            <h3>Prensagem sem calor</h3>
+            <p>Extração lenta hidráulica que evita oxidação e mantém enzimas e vitaminas intactas.</p>
+          </article>
+
+          <article class="pillar-item reveal">
+            <div class="pillar-thumb">
+              <img src="assets/processo-ingredientes.jpg" alt="Laranjas orgânicas, cúrcuma e cenoura" loading="lazy" />
+            </div>
+            <h3>Ingredientes de origem local</h3>
+            <p>Seleção diária com produtores da região, sem xaropes, corantes ou água adicionada.</p>
+          </article>
+
+          <article class="pillar-item reveal">
+            <div class="pillar-thumb">
+              <img src="assets/processo-frescor.jpg" alt="Garrafa gelada com hortelã e cítricos" loading="lazy" />
+            </div>
+            <h3>Produzido no dia da entrega</h3>
+            <p>Lotes pequenos feitos sob demanda para chegar gelado na sua casa ou trabalho.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sabores" class="section">
+      <div class="container">
+        <div class="section-split reveal">
+          <div>
+            <span class="kicker">Cardápio fresco</span>
+            <h2>Sabores da semana</h2>
+          </div>
+          <p class="section-note">Garrafas de 300ml. Adicione à sacola para fechar o pedido direto no WhatsApp.</p>
+        </div>
+
+        <div class="flavors-grid" id="flavors-grid"></div>
+      </div>
+    </section>
+
+    <section id="degustacao" class="section section-degustacao">
+      <div class="container degustacao-grid">
+        <div class="degustacao-visual reveal">
+          <img src="assets/degustacao-completa.jpg" alt="Homem de camisa bege segurando copo de suco verde e trio de garrafas naturais ao lado" class="degustacao-img" loading="lazy" />
+        </div>
+
+        <div class="degustacao-copy reveal">
+          <span class="kicker">Experimente</span>
+          <h2>Degustação Completa</h2>
+          <p>
+            A melhor forma de conhecer a Verbena Press. Selecionamos nossos três sabores mais vendidos em um kit exclusivo para você equilibrar sua rotina.
+          </p>
+          <ul class="kit-specs">
+            <li>2× Verdão (detox leve e refrescante)</li>
+            <li>2× Cítrico (imunidade e energia natural)</li>
+            <li>2× Raiz Pura (pré-treino e disposição)</li>
+          </ul>
+          <div class="kit-footer">
+            <div>
+              <span class="kit-price-label">Kit com 6 unidades (300ml cada, vidro retornável)</span>
+              <strong class="kit-price">R$ 78,00</strong>
+            </div>
+            <button type="button" class="btn btn-solid" id="add-kit-btn">Adicionar kit à sacola</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Verbena Press — Bebidas Naturais Prensadas a Frio.</p>
+      <a href="#" id="footer-whats" target="_blank" rel="noopener">Atendimento via WhatsApp</a>
+    </div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Sua sacola" hidden>
+    <div class="drawer-head">
+      <h3>Sua sacola</h3>
+      <button type="button" class="close-btn" id="close-drawer" aria-label="Fechar sacola">×</button>
+    </div>
+    <div class="drawer-body" id="cart-items"></div>
+    <div class="drawer-foot">
+      <div class="drawer-total">
+        <span>Total estimado</span>
+        <strong id="cart-total">R$ 0,00</strong>
+      </div>
+      <button type="button" class="btn btn-solid btn-full" id="checkout-whats">
+        Finalizar pedido no WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
